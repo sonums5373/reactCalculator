@@ -1,0 +1,62 @@
+react
+---------
+
+* front-end library
+
+
+features
+---------
+* fast - virtual dom
+* html, css, js- css,jsx (mixing of html and javascript ).
+* transpiling - browser convert jsx into js and html during runtime.(beacause of jsx don"t have a browser engine).
+* babel - liberary help to transpiling process in react.
+* using component concept - reuseable 
+* single page application(SPA)- REACT and ANGULAR
+
+
+in react is using virtual dom
+
+
+
+types of component
+-------------
+
+* class based components -statefull components - angular
+* function based components - stateless components - react
+
+react project structure
+---------------------
+
+package.json - file contain react project configuration details..
+package-lock.jsson - hold version of all npm package.
+gitignore - during pushing removing unwanted files from git.
+
+
+
+node modules - copy of installed packages and library.
+
+* npm i - command used to install node modules  folder 
+
+index .css - for global styling
+
+
+public - all file can be access.
+
+
+//////////return can produce one output... create a child div in return .
+
+sharing data in react
+--------------------
+
+data sharing is only possible for parent to child.
+
+State-  A js object used to store data in react components.Variables in react components are local Variables.
+
+props - share data from parent to child
+
+hooks in react
+--------------
+
+function  that let you "hook into"react State and lifecycle features from function components
+
+useState - hook used t create State in react
